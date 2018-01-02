@@ -1,31 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<link rel="stylesheet" href="../vendors/bootstrap/css/bootstrap.min.css">
 	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-	<link rel="stylesheet" href="../css/signup.css">
+	<link rel="stylesheet" href="../css/verify.css">
 	<title>Lyft</title>
 </head>
+
 <body>
-    <header>
-        <h1>Sign Up</h1>
-        <p>Join now for free ride credit</p>
-    </header>
-    <hr>
-    
+	<header>
+		<h1>Verify your number</h1>
+		<p>Join now for free ride credit</p>
+	</header>
 
-    <section class="container-fluid">
-            <div class="row">
-                    <button class="btn" id="next">Next</button>
-                </div>
-    </section>
+	<hr>
 
-    
-    <script src="../vendors/jquery/jquery-3.2.1.min.js"></script>
-    <script src="../vendors/bootstrap/js/bootstrap.min.js"></script>
-	<script src="../js/signup.js"></script>
+	<section class="container">
+		<div class="row  input-field center-align ">
+      <p class="col-xs-4 col-xs-offset-3 center-align ">LAB - </p>
+      <input id="verify" maxlength="3 " type="text " class="validate col-xs-3 ">
+		</div>
+		
+		<div class="row">
+			<p>Enter the code send to your phone</p>
+		</div>
+
+		<div class="row">
+				<button class="btn" id="resend">Resend Code</button>
+		</div>
+  </section>
+
+
+  <section class="container-fluid ">
+    <div class="row ">
+      <button class="btn" id="next">Next</button>
+    </div>
+  </section>
+
+
+  <script src="../vendors/jquery/jquery-3.2.1.min.js "></script>
+  <script src="../vendors/bootstrap/js/bootstrap.min.js "></script>
+  <script src="../js/verify.js "></script>
 </body>
+
 </html>

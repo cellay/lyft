@@ -1,0 +1,14 @@
+.container-fluid {
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+	justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+}
+
+
+img {
+    width: 90%;
+}

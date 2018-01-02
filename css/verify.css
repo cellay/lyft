@@ -1,0 +1,12 @@
+body {
+ box-sizing: border-box;
+}
+  
+.row {
+ margin: 10vh auto;
+ text-align: center;
+}
+  
+header {
+  text-align: center;
+}
