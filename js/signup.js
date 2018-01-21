@@ -15,7 +15,7 @@ $(document).ready(function () {
 
     var codeNumber = Math.floor(Math.random() * (999 - 100) + 100);
 
-    if (number.length === 9) {
+    if (number.length === 10) {
       $('#next').removeAttr("disabled");
 
       alert('Your code is LAB-' + codeNumber);
