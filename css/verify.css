@@ -1,12 +1,36 @@
 body {
- box-sizing: border-box;
+  background: whitesmoke;
+  box-sizing: border-box;
+  text-align: center;
+  color: #42328a ;
 }
   
 .row {
- margin: 10vh auto;
- text-align: center;
+  margin: 5vh auto;
+  text-align: center;
+  display: flex;
+  justify-content: center;
 }
   
 header {
   text-align: center;
+}
+
+/* label color */
+input[type=text]:not(.browser-default):focus:not([readonly]),input[type=email]:not(.browser-default):focus:not([readonly]) {
+  border-bottom: 1px solid #d81b60;
+  box-shadow: 0 1px 0 0 #d81b60;
+}
+
+input[type=text]:not(.browser-default):focus:not([readonly]) + label, input[type=email]:not(.browser-default):focus:not([readonly]) +label {
+  color: #d81b60;
+}
+
+.input-field .prefix.active {
+  color: #d81b60;
+}
+
+[type="checkbox"].filled-in:checked+label:after {
+  border: 2px solid #d81b60;
+  background-color: #d81b60;
 }

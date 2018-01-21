@@ -1,22 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Lyft</title>
-    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-    <link rel="stylesheet" href="../css/final.css">
-</head>
-<body>
-    <div class="container-fluid">
-        <div class="row">
-            <img src="../assets/images/final.gif" alt="">
-        </div>
 
-        <div class="row">
-            <h1>Yay, terminaste.</h1>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Lyft</title>
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="../css/final.css">
+</head>
+
+<body>
+
+  <header>
+    <div class="container">
+      <div class="row">
+        <div class="col s1">
+          <i id="back" class="material-icons Medium">first_page</i>
         </div>
-    </div>
+        <div class="col">
+          <img class="col s7 offset-s2" src="../assets/images/logo-pink.png" alt="">
+        </div>
+      </div>
+  </header>
+
+  <div class="box">
+    <img src="../assets/images/final.gif" alt="">
+    <blockquote id="name" class="h1"></blockquote>
+    <p>You're a member of Lyft now. We appreciate it!</p>
+  </div>
+  </div>
+  <script src="../vendors/jquery/jquery-3.2.1.min.js "></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+  <script>
+    $('#back').click(function () {
+      window.location.href = '../views/form.html';
+    });
+    var name = localStorage.getItem('name');
+    $('#name').text('Yay! You finished ' + name + '.');
+  </script>
 </body>
+
 </html>

@@ -1,46 +1,46 @@
 * {
-	box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 #back {
-	font-family: 'Raleway', sans-serif;
-	background-image: url('../assets/images/lyft-img.jpg');
-	background-size: cover;
-	background-position: center bottom;
-	background-repeat: no-repeat;
-	height: 100vh;
+  font-family: 'Raleway', sans-serif;
+  background-image: url('../assets/images/lyft-img.jpg');
+  background-size: cover;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  height: 100vh;
 }
 
 #splash-effect {
-	background: url('../assets/images/lyft-splash.jpg');
-	background-size: cover;
-	background-position: center bottom;
-	position: fixed;
-	top: 0;
-	left: 0;
-	bottom: 0;
-	width: 100%;
-	z-index: 9999;
+  background: url('../assets/images/lyft-splash.jpg');
+  background-size: cover;
+  background-position: center bottom;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  z-index: 9999;
 }
 
 .flex-box {
-	display: flex;
-	justify-content: space-around;
-	align-items: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 header img {
-	width: 25%;
-	height: 10vh;
+  width: 25%;
+  height: 10vh;
 }
 
 .principal-logo {
-	background: url('../assets/images/logo-pink.png');
-	background-size: 100%;
-	background-position: center;
-	background-repeat: no-repeat;
-	height: 35vh;
-	margin: 20vh auto;
+  background: url('../assets/images/logo-pink.png');
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 35vh;
+  margin: 20vh auto;
 }
 
 

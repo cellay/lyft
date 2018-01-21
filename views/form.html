@@ -25,7 +25,6 @@
         </div>
       </div>
     </div>
-    <h3>Verify your number</h3>
     <p>Join now for free ride credit</p>
   </header>
 
@@ -33,34 +32,46 @@
 
   <div class="container">
     <div class="row">
-      <div class="row input-field inline col">
-        <input id="verify" maxlength="3" type="text" class="validate col s10">
-        <label for="verify" type="text" data-error="wrong" data-success="right">LAB - </label>
+      <form class="col s12">
+        <div class="row">
+          <div class="input-field col s6">
+            <i class="material-icons prefix">account_circle</i>
+            <input id="firstName" type="text" class="validate">
+            <label for="icon_prefix">First Name</label>
+          </div>
+          <div class="input-field col s6">
+            <input id="lastName" type="text" class="validate">
+            <label for="last_name">Last Name</label>
+          </div>
+        </div>
+    </div>
+    <div class="row">
+      <div class="input-field col s12">
+        <i class="material-icons prefix">mail</i>
+        <input id="email" type="email" class="validate">
+        <label for="email">Email</label>
       </div>
     </div>
+    <p>
+      <input type="checkbox" class="filled-in" id="filled-in-box" />
+      <label for="filled-in-box">I agree to Lyft's
+        <a href="#">Terms of service</a>
+      </label>
+    </p>
+    </form>
+  </div>
   </div>
 
-
-  <div class="row">
-    <p>Enter the code send to your phone</p>
-  </div>
-
-  <div class="row">
-    <button class="btn pink darken-1" id="resend">Resend Code</button>
-  </div>
-  </section>
-
-
-  <section class="container">
+  <div class="container">
     <div class="row ">
       <button class="btn pulse pink darken-1" id="next" disabled>Next</button>
     </div>
-  </section>
+  </div>
 
 
   <script src="../vendors/jquery/jquery-3.2.1.min.js "></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
-  <script src="../js/verify.js "></script>
+  <script src="../js/form.js "></script>
 </body>
 
 </html>
